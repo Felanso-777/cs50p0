@@ -1,0 +1,120 @@
+.navbar1 {
+    list-style-type:none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.navbar-item1{
+    margin: 10px;
+}
+a:link {
+    color:black;
+    text-decoration: none;
+  }
+  a:visited {
+    color: black;
+  }
+  a:hover {
+    color: black;
+  }
+  a:active {
+    color:black;
+  }
+  .logo-center{
+    display: flex;
+    justify-content: center;
+  }
+  .rounded {
+    display: flex;
+    z-index: 3;
+    position: relative;
+    min-height: 44px;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: 0px 2px 8px 0px rgba(60, 64, 67, 0.25);
+    border-radius: 24px;
+    margin:auto;
+    width: 650px;
+    width: 500px;
+    max-width: 584px;
+    margin-top:30px
+}
+.google-btn{
+  border-radius: 4px;
+  color: #e8eaed;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+.btn-space{
+  margin: 10px;
+}
+.advanced-text{
+  color: #d93025;
+  font-size: 20px;
+  margin: 25px 35px;
+  font-family: Arial, sans-serif;
+  font-weight: inherit;
+    font-style: inherit;
+}
+.line {
+  border-bottom: 1px solid #ebebeb;
+}
+.p-advanced{
+  color: #333;
+  font-family:sans-serif;
+  height: 30px; 
+}
+.div1-advanced{
+  margin:50px;
+}
+.row-input{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 20px;
+}
+.left{
+  width: 15%;
+    height: 42px;
+    color: #222;
+    vertical-align: middle;
+}
+.right{
+  width:500px;
+}
+.p-advanced{
+  font-size: 13px;
+  vertical-align:middle;
+}
+.btn-div {
+  display: flex;
+  justify-content: flex-end;  /* Aligns the button to the right */
+  margin-top: 20px; /* Adds space between inputs and button */
+}
+
+.button-container {
+  display: flex;
+  justify-content: flex-end; /* Aligns button to the right */
+  margin-top: 20px; /* Adds spacing between last input field and button */
+  width: 100%; /* Ensures proper alignment */
+  padding-right:570px ;
+}
+
+.btn-advanced {
+  box-shadow: none;
+  background-color: #4d90fe;
+  border: 1px solid #3079ed;
+  color: #fff;
+  padding: 8px 15px;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+}
